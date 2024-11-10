@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0a0a0a; 
+    color: #fff;/* Sets the background to black */
+  }
+  
+  :root {
+    --radius: 0.5rem;
+    --background: #0a0a0a; /* Defines a CSS variable for black background if needed elsewhere */
+    --foreground: #fff; /* Assuming a contrasting foreground color might be helpful */
+  }
+}
